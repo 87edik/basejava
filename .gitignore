@@ -1,7 +1,9 @@
-.idea
-out
-*.iml
+.DS_Store
 log
-
+*.class
+.idea/
+out/
+*.iml
+target/
 
 
