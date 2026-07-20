@@ -1,3 +1,7 @@
+package com.urise.webapp.model;
+
+import com.urise.webapp.storage.ArrayStorage;
+
 /**
  * Test for your ArrayStorage implementation
  */
