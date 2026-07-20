@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Array based storage for Resumes
  */
 public class ArrayStorage {
-    private Resume[] storage = new Resume[10000];
+    private final Resume[] storage = new Resume[10000];
     private int size = 0;
 
     public void clear() {
@@ -50,7 +50,7 @@ public class ArrayStorage {
         int isIndex = getIndex(uuid);
         if (isIndex >= 0) {
             storage[isIndex] = r;
-            return;
+            
         } else {
             System.out.println("Resume " + r.getUuid() + " not exist");
         }
